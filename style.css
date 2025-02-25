@@ -1,0 +1,38 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff5e6; /* Тёплый кремовый фон, ассоциирующийся с пончиками */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #ff0000; /* Ярко-красный цвет для заголовка */
+            font-size: 3em;
+            font-family: 'Impact', sans-serif;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .donut-container {
+            text-align: center;
+        }
+        .donut-image {
+            max-width: 350px; /* Увеличил размер изображения для большего внимания */
+            height: auto;
+            margin: 0 auto;
+            border-radius: 15px; /* Более заметные закруглённые углы */
+            box-shadow: 0 0 15px rgba(211, 84, 0, 0.5); /* Яркая оранжевая тень для акцента */
+            transition: transform 0.3s; /* Анимация при наведении */
+        }
+        .donut-image:hover {
+            transform: scale(1.1); /* Увеличение изображения при наведении курсора */
+        }
+        .donut-text {
+            color: #d35400; /* Оранжевый цвет для текста, как на изображении */
+            font-size: 1.2em;
+            font-style: italic;
+            margin-top: 20px;
+            font-family: 'Arial', sans-serif;
+        }
